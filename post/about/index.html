@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | 极客营地</title>
+<title>关于我 | 极客营地</title>
 <meta name="description" content="Deeply Loves The Life">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -14,6 +14,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://bb-code.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
@@ -32,6 +38,7 @@
 
   </head>
   <body>
+  
     <nav class="navbar border fixed split-nav">
   <div class="nav-brand">
     <h3><a href="https://bb-code.github.io">极客营地</a></h3>
@@ -85,36 +92,38 @@
   </div>
 </nav>
 
-    
     <div id="top" class="row site">
       <div class="sm-12 md-8 col">
         <div class="paper">
+          <article class="article">
+            <h1>关于我</h1>
+            <p class="article-meta">
+              2019-09-21
+              
+            </p>
+            
+            <div class="post-content">
+              <blockquote>
+<p>本人想通过写博客的方式去记录生活的点点滴滴，关于技术的、生活的等等，给自己的学习路程做一个记录。如果这些博客文章碰巧对您有所帮助，那本人会由衷得感到高兴，也希望你们能提出宝贵的建议让我不断的进步和分享，谢谢每一位看我博客的小伙伴。</p>
+</blockquote>
+
+            </div>
+          </article>
+        </div>
+        <div class="paper" data-aos="fade-in">
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
           
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
-            
-              <h3 class="year" data-aos-delay="500">2019</h3>
-              
-                
-                  <article class="post">
-                    <a href="https://bb-code.github.io/post/about">
-                      <h4 class="post-title">
-                        关于我
-                      </h4>
-                    </a>
-                  </article>
-                
-              
-            
-          </div>
-        </div>
-        <div class="row flex-edges">
-  
-  
-</div>
-
+          
+        
       </div>
+
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
     <img src="https://bb-code.github.io/images/avatar.png?v=1569073904535" class="no-responsive avatar">
@@ -171,6 +180,8 @@
 </div>
 
 
+    </div>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 <script type="application/javascript">
@@ -180,6 +191,29 @@ AOS.init();
 hljs.initHighlightingOnLoad()
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '8eb11dd61bcce3627cad',
+        clientSecret: 'd917b72fcf1bb6f6a3fb2e01b6a7738f5e6176be',
+        repo: 'bb-code.github.io',
+        owner: 'BB-Code',
+        admin: ['BB-Code'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 

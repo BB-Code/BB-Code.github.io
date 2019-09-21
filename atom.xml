@@ -2,12 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bb-code.github.io</id>
     <title>极客营地</title>
-    <updated>2019-09-21T12:35:27.665Z</updated>
+    <updated>2019-09-21T13:51:45.204Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bb-code.github.io"/>
     <link rel="self" href="https://bb-code.github.io/atom.xml"/>
-    <subtitle>越努力越幸运</subtitle>
+    <subtitle>Deeply Loves The Life</subtitle>
     <logo>https://bb-code.github.io/images/avatar.png</logo>
     <icon>https://bb-code.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 极客营地</rights>
+    <entry>
+        <title type="html"><![CDATA[关于我]]></title>
+        <id>https://bb-code.github.io/post/about</id>
+        <link href="https://bb-code.github.io/post/about">
+        </link>
+        <updated>2019-09-21T12:44:04.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>本人想通过写博客的方式去记录生活的点点滴滴，关于技术的、生活的等等，给自己的学习路程做一个记录。如果这些博客文章碰巧对您有所帮助，那本人会由衷得感到高兴，也希望你们能提出宝贵的建议让我不断的进步和分享，谢谢每一位看我博客的小伙伴。</p>
+</blockquote>
+]]></content>
+    </entry>
 </feed>
