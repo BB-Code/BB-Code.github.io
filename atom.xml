@@ -1,74 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>C:/Users/bobo/Documents/Gridea/output</id>
+    <id>https://bb-code.github.io</id>
     <title>Gridea</title>
-    <updated>2019-09-21T07:02:08.080Z</updated>
+    <updated>2019-09-21T11:20:19.669Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="C:/Users/bobo/Documents/Gridea/output"/>
-    <link rel="self" href="C:/Users/bobo/Documents/Gridea/output/atom.xml"/>
+    <link rel="alternate" href="https://bb-code.github.io"/>
+    <link rel="self" href="https://bb-code.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>C:/Users/bobo/Documents/Gridea/output/images/avatar.png</logo>
-    <icon>C:/Users/bobo/Documents/Gridea/output/favicon.ico</icon>
+    <logo>https://bb-code.github.io/images/avatar.png</logo>
+    <icon>https://bb-code.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
     <entry>
-        <title type="html"><![CDATA[Github Actions]]></title>
-        <id>C:/Users/bobo/Documents/Gridea/output/post/github-actions/index.html</id>
-        <link href="C:/Users/bobo/Documents/Gridea/output/post/github-actions/index.html">
-        </link>
-        <updated>2019-09-21T07:00:15.000Z</updated>
-        <content type="html"><![CDATA[<p>前置知识</p>
-<ul>
-<li>Have a GitHub account</li>
-<li>Create a repository on Git 1ub.com</li>
-<li>Create and manage a repository branch</li>
-<li>Commit code changes to a repository</li>
-<li>Work with pull requests</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[提高开发效率的 VS Code 实用扩展]]></title>
-        <id>C:/Users/bobo/Documents/Gridea/output/post/vs-code-kuo-zhan-ti-gao-kai-fa-xiao-lu/index.html</id>
-        <link href="C:/Users/bobo/Documents/Gridea/output/post/vs-code-kuo-zhan-ti-gao-kai-fa-xiao-lu/index.html">
-        </link>
-        <updated>2019-09-20T06:18:19.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Bracket Pair Colorizer 2 （代码括号颜色匹配）</li>
-<li>Indent Rainbow （代码缩进颜色提示）</li>
-<li>Auto Close Tag （自动闭合标签）</li>
-<li>Auto Rename Tag （标签改名自动修正）</li>
-<li>Indenticator （高亮缩进）</li>
-<li>VS Code Icons （图标主题）</li>
-<li>Prettier （代码美化）</li>
-<li>Path Intellisense （文件路劲提示）</li>
-<li>ESLint 和 TSLint （代码检查工具）</li>
-<li>Code Spell Checker （代码的拼写检查）</li>
-<li>Change-case (快速更改当前单词的大小写)</li>
-<li>Regex Previewer (正则匹配实时预览)</li>
-<li>Partial Diff （比较代码的不同）</li>
-<li>Paste Image （md文件的图片粘贴显示）</li>
-<li>TinyPNG （压缩图片）</li>
-<li>Polacode （生成漂亮的代码截图）</li>
-<li>Turbo Console Log（自动编写日志消息）</li>
-<li>Debugger for Chrome （chrome 调式）</li>
-<li>GitLens — Git supercharged （Git 版本管理）</li>
-<li>Git History &amp; Git Blame  &amp; Git Indicators</li>
-<li>Open in GitHub, Bitbucket, Gitlab, VisualStudio.com !</li>
-<li>Markdown Shortcuts （Markdown快捷方式）</li>
-<li>Markdown Preview Enhanced （Markdown预览增强）</li>
-<li>WakaTime &amp; Code Time （代码时间统计）</li>
-<li>Quokka.js （实时变量结果展示）</li>
-<li>TODO Highlighter （TODO 高亮）</li>
-<li>Import Cost （显示引入包的大小）</li>
-<li>Live Server（热加载功能的本地服务器）</li>
-<li>Paste JSON as Code （不同语言的JSON代码拷贝）</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>C:/Users/bobo/Documents/Gridea/output/post/hello-gridea/index.html</id>
-        <link href="C:/Users/bobo/Documents/Gridea/output/post/hello-gridea/index.html">
+        <id>https://bb-code.github.io/post/hello-gridea</id>
+        <link href="https://bb-code.github.io/post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
