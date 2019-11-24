@@ -7,18 +7,19 @@
 <meta name="description" content="Deeply Loves The Life">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://bb-code.github.io/favicon.ico?v=1574586692555">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="shortcut icon" href="https://bb-code.github.io/favicon.ico?v=1574587173407">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://bb-code.github.io/styles/main.css">
 
 
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
-
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148452450-1"></script>
 <script>
@@ -32,78 +33,94 @@
 
   </head>
   <body>
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="https://bb-code.github.io">极客营地</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://bb-code.github.io">
+        <img src="https://bb-code.github.io/images/avatar.png?v=1574587173407" class="site-logo">
+        <h1 class="site-title">极客营地</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
         
-          <li>
-            
-              <a href="/" class="menu">
-                首页
-              </a>
-            
-          </li>
+          <a href="/" class="site-nav">
+            首页
+          </a>
         
-          <li>
-            
-              <a href="/archives" class="menu">
-                归档
-              </a>
-            
-          </li>
+      
         
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
         
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
+      
         
-      </ul>
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
     </div>
   </div>
-</nav>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/BB-Code" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+          <a class="social-link" href="https://www.zhihu.com/people/bobo_code/" target="_blank">
+            <i class="fab fa-zhihu"></i>
+          </a>
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      Deeply Loves The Life
+    </div>
+    <div class="site-footer">
+      Copyright by <a href="https://github.com/BB-Code/" target="_blank">BB-Code</a> | Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://bb-code.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
           <h2 class="current-tag">标签: 运营</h2>
           
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://bb-code.github.io/post/zhi-hu-zhang-fen-ji-qiao">知乎涨粉技巧</a>
-    </h2>
-    <p class="article-meta">
-      2019-11-24
-      
-        <a href="https://bb-code.github.io/tag/BqXkFMifA" class="badge secondary">
-          运营
-        </a>
-      
-    </p>
-    <p class="text-lead">
-      <h2 id="为什么要涨粉">📌为什么要涨粉</h2>
+            <article class="post-item">
+              <div class="left">
+                <a href="https://bb-code.github.io/post/zhi-hu-zhang-fen-ji-qiao">
+                  <h2 class="post-title">知乎涨粉技巧</h2>
+                </a>
+                <div class="post-date">
+                  2019-11-24
+                </div>
+                <div class="post-abstract">
+                  <figure data-type="image" tabindex="1"><img src="https://bb-code.github.io/post-images/1574587108278.png" alt=""></figure>
+<h2 id="为什么要涨粉">📌为什么要涨粉</h2>
 <ul>
 <li>得名 得势</li>
 <li>赚钱
@@ -186,89 +203,19 @@
 </li>
 </ul>
 
-    </p>
-    <div class="row">
-      <a href="https://bb-code.github.io/post/zhi-hu-zhang-fen-ji-qiao" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
+                </div>
+              </div>
+              
+            </article>
+          
 
+          <div class="pagination-container">
+  
+  
+</div>
 
         </div>
-        <div class="row flex-edges">
-  
-  
-</div>
-
       </div>
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="https://bb-code.github.io/images/avatar.png?v=1574586692555" class="no-responsive avatar">
-    <div class="text-muted">Deeply Loves The Life</div>
-    <div class="social-container">
-      
-        
-          <a href="https://github.com/BB-Code" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-      
-        
-          <a href="https://www.zhihu.com/people/bobo_code/" target="_blank">
-            <i class="fab fa-zhihu"></i>
-          </a>
-        
-      
-        
-      
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="https://bb-code.github.io/post/zhi-hu-zhang-fen-ji-qiao">知乎涨粉技巧</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://bb-code.github.io/post/about">关于我</a>
-            </li>
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="https://bb-code.github.io/tag/BqXkFMifA" class="badge warning">
-          运营
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    Copyright by <a href="https://github.com/BB-Code/" target="_blank">BB-Code</a> | Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://bb-code.github.io/atom.xml" target="_blank">RSS</a>
-  </div>
-</div>
-
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -278,6 +225,13 @@
 AOS.init();
 
 hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
 
