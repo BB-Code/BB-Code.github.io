@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>极客营地</title>
+<title>另外的话 | 极客营地</title>
 <meta name="description" content="Deeply Loves The Life">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -13,6 +13,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://bb-code.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -108,139 +114,26 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://bb-code.github.io/post/exc3U0mIG">
-                  <h2 class="post-title">PS 学习之旅</h2>
-                </a>
-                <div class="post-date">
-                  2020-04-15
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://bb-code.github.io/post/zhi-hu-zhang-fen-ji-qiao">
-                  <h2 class="post-title">知乎涨粉技巧</h2>
-                </a>
-                <div class="post-date">
-                  2019-11-24
-                </div>
-                <div class="post-abstract">
-                  <h2 id="为什么要涨粉">为什么要涨粉</h2>
-<ul>
-<li>得名 得势</li>
-<li>赚钱
-<ul>
-<li>广告软文</li>
-<li>知乎live</li>
-<li>电子书</li>
-<li>私家课</li>
-</ul>
-</li>
-</ul>
-<h2 id="工具">工具</h2>
-<ul>
-<li>创可贴</li>
-<li>canvas</li>
-<li>印象笔记</li>
-<li>新榜</li>
-<li>新媒体管家</li>
-<li>公众号</li>
-<li>鸟哥笔记</li>
-<li>36氪</li>
-<li>人人都是产品经理</li>
-<li>数据指数</li>
-</ul>
-<h1 id="开拓思考">开拓思考</h1>
-<ul>
-<li>用户
-<ul>
-<li>优质的回答者</li>
-</ul>
-</li>
-<li>内容
-<ul>
-<li>发散思维</li>
-</ul>
-</li>
-<li>展示形式</li>
-</ul>
-<h2 id="流程">流程</h2>
-<p>知乎人设(免费资源吸引)-&gt; 引流公众号-&gt; 课程销售 -&gt; 线下服务</p>
-<h2 id="关注点">关注点</h2>
-<ul>
-<li>简介
-<ul>
-<li>关注按钮</li>
-<li>背景图</li>
-<li>人像 (真人 漫画)</li>
-<li>徽章  标签</li>
-<li>一句话介绍 （关注理由）</li>
-<li>高价值展示流 多领域</li>
-<li>硬广 放公众号</li>
-<li>成就 作品</li>
-</ul>
-</li>
-</ul>
-<h2 id="排名">排名</h2>
-<ul>
-<li>&quot;威尔逊&quot;区间法 多个优质的回答 匿名不计</li>
-<li>特定领域内 垂直内容</li>
-<li>热榜前40问题</li>
-<li>高赞回答下评论互动</li>
-<li>热点 猎奇 情感 专业 人生 体验 之类问题</li>
-</ul>
-<h2 id="专栏">专栏</h2>
-<ul>
-<li>作用</li>
-<li>使用方式
-<ul>
-<li>自定标题 捕获精准粉丝</li>
-<li>投稿</li>
-<li>邀请投稿</li>
-</ul>
-</li>
-<li>技巧
-<ul>
-<li>标题覆盖关键字多</li>
-<li>标签垂直</li>
-<li>内容要干 专业性</li>
-</ul>
-</li>
-</ul>
+          <div class="post-detail">
+            <h2 class="post-title">另外的话</h2>
+            <div class="post-date">2020-04-15</div>
+            
+            <div class="post-content">
+              <p>如果这些博客文章碰巧对您有所帮助，那本人会由衷得感到高兴，也希望你们能提出宝贵的建议让我不断的进步和分享，谢谢每一位看我博客的小伙伴。</p>
 
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://bb-code.github.io/post/about">
-                  <h2 class="post-title">关于我</h2>
-                </a>
-                <div class="post-date">
-                  2019-09-21
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
+            </div>
+            
+            
 
-          <div class="pagination-container">
-  
-  
-</div>
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
 
         </div>
       </div>
@@ -262,6 +155,29 @@ var app = new Vue({
 })
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '8eb11dd61bcce3627cad',
+        clientSecret: 'd917b72fcf1bb6f6a3fb2e01b6a7738f5e6176be',
+        repo: 'bb-code.github.io',
+        owner: 'BB-Code',
+        admin: ['BB-Code'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
