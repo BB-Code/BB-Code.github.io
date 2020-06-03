@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Photoshop | 极客营地</title>
+<title>扩展知识 | 极客营地</title>
 <meta name="description" content="Deeply Loves The Life">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -13,6 +13,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://bb-code.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -109,28 +115,62 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="current-tag">标签: Photoshop</h2>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://bb-code.github.io/post/exc3U0mIG">
-                  <h2 class="post-title">PS 学习之旅</h2>
-                </a>
-                <div class="post-date">
-                  2020-04-15
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
+          <div class="post-detail">
+            <h2 class="post-title">扩展知识</h2>
+            <div class="post-date">2020-06-03</div>
+            
+            <div class="post-content">
+              <h1 id="javascript-中-call-apply-bind">JavaScript 中 call()、apply()、bind()</h1>
+<ul>
+<li>
+<p>call ,bind ,apply 这三个函数的第一个参数都是 this 的指向对象，第二个参数差别就来了：</p>
+</li>
+<li>
+<p>call 的参数是直接放进去的，第二第三第 n 个参数全都用逗号分隔，直接放到后面 obj.myFun.call(db,'',''... );</p>
+</li>
+<li>
+<p>apply 的所有参数都必须放在一个数组里面传进去 obj.myFun.apply(db,['', ..., '' ]);</p>
+</li>
+<li>
+<p>bind 除了返回是函数以外，它 的参数和 call 一样</p>
+</li>
+<li>
+<p>三者的参数不限定是 string 类型，允许是各种类型，包括函数 、 object 等</p>
+</li>
+</ul>
+<h1 id="argumentscallee和caller的区别">arguments.callee和caller的区别</h1>
+<p>Arguments Objects 是函数上下文里的激活对象AO中的内部对象，它包括下列属性：</p>
+<ul>
+<li>callee：指向当前函数的引用</li>
+<li>length： 真正传递的参数的个数</li>
+<li>properties-indexes：就是函数的参数值(按参数列表从左到右排列)</li>
+</ul>
+<p>阶乘案例</p>
+<p>caller与callee不同，caller属性并不属于arguments对象，它是函数对象的属性</p>
+<p>函数里调用其他函数案例</p>
 
-          <div class="pagination-container">
-  
-  
-</div>
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://bb-code.github.io/post/MIVcUtjJu">
+                  <h3 class="post-title">
+                    javascript 高级技巧
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
 
         </div>
       </div>
@@ -152,6 +192,29 @@ var app = new Vue({
 })
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '8eb11dd61bcce3627cad',
+        clientSecret: 'd917b72fcf1bb6f6a3fb2e01b6a7738f5e6176be',
+        repo: 'bb-code.github.io',
+        owner: 'BB-Code',
+        admin: ['BB-Code'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
